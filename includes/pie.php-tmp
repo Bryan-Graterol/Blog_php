@@ -1,0 +1,11 @@
+
+Fatal error: Uncaught Error: Call to undefined function each() in C:\Users\bryan\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php on line 54
+
+Error: Call to undefined function each() in C:\Users\bryan\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php on line 54
+
+Call Stack:
+    0.0033     789536   1. {main}() C:\Users\bryan\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php:0
+    0.0042     800088   2. CodeFormatter->formatCode($source = '\r\n\t\t\t<div class="clearfix"></div>\r\n\t\t</div> <!-- fin contenedor -->\r\n\r\n\t\t<!-- PIE DE PÁGINA -->\r\n\t\t<footer id="pie">\r\n\t\t\t<p>Desarrollado por Bryan Graterol &copy; 2022</p>\r\n\t\t</footer>\r\n\t\t\r\n\t</body>\r\n</html>\r\n') C:\Users\bryan\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php:1736
+    0.0042     800344   3. AddMissingCurlyBraces->format($source = '\r\n\t\t\t<div class="clearfix"></div>\r\n\t\t</div> <!-- fin contenedor -->\r\n\r\n\t\t<!-- PIE DE PÁGINA -->\r\n\t\t<footer id="pie">\r\n\t\t\t<p>Desarrollado por Bryan Graterol &copy; 2022</p>\r\n\t\t</footer>\r\n\t\t\r\n\t</body>\r\n</html>\r\n') C:\Users\bryan\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php:326
+    0.0042     800344   4. AddMissingCurlyBraces->addBraces($source = '\r\n\t\t\t<div class="clearfix"></div>\r\n\t\t</div> <!-- fin contenedor -->\r\n\r\n\t\t<!-- PIE DE PÁGINA -->\r\n\t\t<footer id="pie">\r\n\t\t\t<p>Desarrollado por Bryan Graterol &copy; 2022</p>\r\n\t\t</footer>\r\n\t\t\r\n\t</body>\r\n</html>\r\n') C:\Users\bryan\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php:41
+
